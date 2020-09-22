@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2020, 3:51:39 PM
+    Author     : Administrator
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2020, 2:23:14 PM
+    Author     : Administrator
+*/
+
+body{
+    width: 960px;
+    height: 1000px;
+    background-color: #999999;
+    margin: 0 auto;
+}
+header{
+    height: 250px;
+    width: 100%;
+    background-color: #006666;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:#CCCCCC;
+    
+}
+#menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 18%;
+
+}
+#menu a{
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+    color: black;
+/*    border:1px solid black;
+    border-radius: 10px;*/
+    margin: 0;
+
+}
+#menu a:hover{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+      border-radius: 10px;
+}
+#main-content{
+    width: 100%;
+    height: 600px;
+    /*background-color: #C0526B;*/
+}
+article{
+    width: 70%;
+    height: 600px;
+    /*background-color: #CCCCCC;*/
+    float: left;
+    background-image: url(../De_thi/Image/tranh-trang-tri-hinh-anh-spa-co-gai-dep-1045.jpg);
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2020, 3:27:08 PM
+    Author     : Administrator
+*/
+
+form{
+    width: 500px;
+    height: 500px;
+    /*background-color: #cccccc;*/
+    margin:0 auto;
+    border: 1px solid #66ccff;
+    border-radius: 15px;
+    background-image: url(../De_thi/Image/pexels-photo-949587.jpeg);
+}
+#title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color:#ff3300;
+}
+label{
+    color: yellow;
+    font-size: 20px;
+    margin: 10px;
+}
+.form{
+   
+    font-size: 20px;
+}
+.form-groupp{
+    font-family: sans-serif;
+    margin:10px;
+}
+.form-cotrol{
+    padding: 2px;
+    margin: 5px 0;
+  border-radius:3px;
+  margin: 10px;
+    
+}
+.form-cotrol1{
+    padding: 5px;
+    margin: 3px 0;
+    width: 400px;
+    height: 100px;
+}
+.btn{
+    margin: 20px 10px;
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 5px;
+    color:white;
+    background-color: #6666ff;
+}
+aside{
+    width: 30%;
+    height: 600px;
+    background-color: #660066;
+    float: left;
+    background-image: url(../De_thi/Image/tranh-trang-tri-hinh-anh-spa-co-gai-dep-1045.jpg);
+}
+#col-30{
+    width: 250px;
+    height: 250px;
+    /*background-color: #006666;*/
+    margin: 18px;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+#col-30 >img{
+    width: 250px;
+    height: 250px;
+        border-radius: 10px;
+}
+footer{
+    width:100%;
+    height: 100px;
+    background-color: #00cc66;
+}
+footer>p{
+    text-align: center;
+    padding:30px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}

@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 3, 2020, 2:23:14 PM
+    Author     : Administrator
+*/
+
+body{
+    width: 960px;
+    height: 1000px;
+/*    background-color: ;*/
+    margin: 0 auto;
+}
+header{
+    height: 250px;
+    width: 100%;
+    background-color: #006666;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:#CCCCCC;
+    
+}
+#menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 18%;
+
+}
+#menu a{
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+    color: black;
+/*    border:1px solid black;
+    border-radius: 10px;*/
+    margin: 0;
+
+}
+#menu a:hover{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+      border-radius: 10px;
+}
+#main-content{
+    width: 100%;
+    height: 600px;
+    /*background-color: #C0526B;*/
+}
+article{
+    width: 70%;
+    height: 600px;
+    /*background-color: #CCCCCC;*/
+    float: left;
+    background-image: url(../De_thi/Image/tranh-trang-tri-hinh-anh-spa-co-gai-dep-1045.jpg);
+}
+#col-35{
+    width: 35%;
+    height: 300px;
+    /*background-color: #ff66ff;*/
+    margin:5px;
+    padding: 0;
+    border: 1px solid brown;
+    border-radius: 10px;
+    float:left;
+    
+}
+#col-35 .a1{
+    background-color:#ccccff;
+    color: black;
+    height: 96px;
+    border-radius: 10px;
+    padding: 0;
+    font-weight: 600;
+ 
+}
+#col-35 .a1:hover{
+     background-color:white;
+    color: black;
+}
+aside{
+    width: 30%;
+    height: 600px;
+    background-color: #660066;
+    float: left;
+    background-image: url(../De_thi/Image/tranh-trang-tri-hinh-anh-spa-co-gai-dep-1045.jpg);
+}
+#col-30{
+    width: 250px;
+    height: 250px;
+    /*background-color: #006666;*/
+    margin: 18px;
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+#col-30 >img{
+    width: 250px;
+    height: 250px;
+        border-radius: 10px;
+}
+footer{
+    width:100%;
+    height: 100px;
+    
+}
+footer>p{
+    text-align: center;
+    padding:30px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}

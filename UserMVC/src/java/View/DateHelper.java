@@ -1,0 +1,63 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package View;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ *
+ * @author Tran Y
+ */
+public class DateHelper {
+    static final SimpleDateFormat DATE_FORMATER = new SimpleDateFormat("yyyy-MM-dd");
+    /**
+     * Chuyển đổi String sang Date
+     * @param date là String cần chuyển
+     * @param pattern là định dạng thời gian
+     * @return Date kết quả 
+      */
+ public static Date toDate(String date, String...pattern) {
+        try {
+            if(pattern.length > 0){
+                DATE_FORMATER.applyPattern(pattern[0]);
+            }
+            if(date == null){
+                return DateHelper.now();
+            }
+            return DATE_FORMATER.parse(date);
+        } 
+        catch (ParseException ex ) {
+            throw new RuntimeException(ex);
+        }
+    }
+    /**
+     * Chuyển đổi từ Date sang String
+     * @param date là Date cần chuyển đổi
+     * @param pattern là định dạng thời gian
+     * @return String kết quả
+     */
+    public static String toString(Date date, String...pattern) {
+        if(pattern.length > 0){
+            DATE_FORMATER.applyPattern(pattern[0]);
+        }
+        if(date == null){
+            date = DateHelper.now();
+        }
+        return DATE_FORMATER.format(date);
+    }
+
+    /**
+     * Lấy thời gian hiện tại
+     * @return Date kết quả
+     */
+    public static Date now() {
+        return new Date();
+    }
+
+
+}

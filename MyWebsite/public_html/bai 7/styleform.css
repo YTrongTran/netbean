@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2019, 3:27:43 PM
+    Author     : trany
+*/
+.form-group{
+    margin: 10px 2px;
+}
+.form-cotrol{
+padding:5px;
+margin: 3px 0;
+width:200px;
+border: none;
+border-radius:3px;
+box-shadow: 0 0 3px red;
+display: block;
+color: #6666ff;
+}
+.form-cotrol:focus{
+    box-shadow: 0 0 3px greenyellow;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #660066;
+    background-color:#ccccff;
+}

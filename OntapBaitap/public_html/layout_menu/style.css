@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2020, 6:59:17 PM
+    Author     : Administrator
+*/
+
+body{
+    width: 960px;
+    height: 1000px;
+    background-color: #cccccc;
+    margin: 0 auto;
+}
+#wrapper{
+    widht:100%;
+    height: auto;
+    background-color: white;
+    position: relative;
+}
+header{
+    height: 250px;
+    width: 100%;
+    /*background-color: #000099;*/
+}
+nav{
+    height: 50px;
+    width:100%;
+    background-color:#006600;
+}
+
+#main-content{
+    width: 100%;
+    height: 100% ;
+    /*background-color: #cc0000;*/
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0000ff;
+}
+article{
+    width:70%;
+    height: 100%;
+    /*background-color: #666666;*/
+    float: left;
+}
+aside{
+    width: 29%;
+    height:600px;
+    /*background-color: #efba4c;*/
+    border: 1px solid #0000ff;
+    float: left;
+}
+#menu{
+    width:100%;
+    padding: 0;
+    margin:0;
+}
+#menu >ul{
+    /*background-color: #cc0000;*/
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+    margin: 0;
+}
+#menu>ul>li{
+    display: inline-block;
+    line-height: 50px;
+    width: 18%;
+    color: white;
+}
+#menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu>ul>li>a:hover{
+    background-color: white;
+    color: black;
+}
+.vmenu{
+    list-style-type: none;
+    /*background-color: gray;*/
+    border-radius: 10px;
+    margin: 2px;
+    padding:10px;
+   border:1px solid grey;
+   box-shadow: 2px 3px grey;
+}
+.vmenu >li{
+    border-bottom: 1px orange dashed;
+    padding: 0;
+}
+.vmenu a{
+    text-decoration: none;
+    line-height: 50px;
+    background: url(../imges/bullet_red.png) no-repeat 1px;
+    padding: 5px 5px 6px 40px;
+    color: red;
+}
+.vmenu a:hover{
+    background: url(../imges/bullet_yellow.png) no-repeat 1px;
+    background-color: orange;
+    display: block;
+    font-weight: 900;
+    color: white;
+     
+}
+h1{
+    text-align: center;
+}
+.col-33{
+    width: 33%;
+    height: 200px;
+    float: left;
+    margin-left: 2px;
+    background-color:#666666;
+}
+
+.product{
+    text-align: center;
+    border: 1px  solid gold;
+    border-radius: 10px;
+    padding:1px;
+    margin: 1px;
+        
+        
+}
+.product>.image{
+  /*margin: 10px;*/
+    height: 250px;
+    width: 100%;
+}
+.product>.name{
+    color: red;
+    text-align: center;
+}

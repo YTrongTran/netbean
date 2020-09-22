@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 3, 2020 9:14:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="models.Users" table="users" schema="dbo" catalog="dbDemo" optimistic-lock="version">
+        <id name="username" type="string">
+            <column name="username" length="50" />
+            <generator class="assigned" />
+        </id>
+        <property name="age" type="java.lang.Integer">
+            <column name="age" />
+        </property>
+        <property name="fullname" type="string">
+            <column name="fullname" length="50" />
+        </property>
+        <property name="gender" type="java.lang.Boolean">
+            <column name="gender" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

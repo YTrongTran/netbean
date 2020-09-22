@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2019, 2:22:08 PM
+    Author     : trany
+*/
+/*body{
+    background-color: black;
+}*/
+#wrapper{
+    width:960px;
+    height:1000px;
+    background-color: gray;
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    height: 300px;
+    background-color:#ccffff;
+    position: relative;
+}
+nav{
+    width:100%;
+    height:50px;
+    background-color: yellow;
+}
+#main-content{
+    width:100%;
+    height:550px;
+    background-color: #ff3333;
+}
+article{
+    width: 70%;
+    height:550px;
+    background-color: white;
+    float:left;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
+}
+aside{
+    width: 29%;
+    height:550px;
+    background-color: #cc00cc;
+    float:left;
+}
+footer{
+    background-color: #22b62e;
+    width:100%;
+    height: 100px
+}
+
+.box-news{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.box-news-items{
+    width: 99%;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+  
+}
+.box-news-items img{
+    width: 170px;
+    height: 190px;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
+    margin: 3px;
+     float: left;
+}
+.box-news-content{
+    width: 460px;
+    height: 200px;
+/*    background-color: #ff66cc;*/
+    float: left;
+    margin:  2px;
+    padding-left: 10px;
+ 
+}
+.title-news{
+    text-align: left;
+        margin: 2px;
+        border-bottom: 1px dotted gray;
+        margin: 2px ;
+        padding-bottom: 5px;
+        word-wrap: break-word;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+/*        text-overflow: '[v.v]';*/
+        
+/*        background-color: #ccffff;*/
+}
+.title-news a{
+    text-decoration: none;
+    color: bule;
+}
+.title-news a:hover{
+    text-decoration: underline;
+}
+.conten-news{
+    text-align: justify;
+    margin: 0;
+    height:130px;
+/*    background-color: blue;*/
+overflow: hidden;
+    
+}

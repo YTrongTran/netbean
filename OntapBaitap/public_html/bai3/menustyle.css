@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2019, 9:48:19 AM
+    Author     : trany
+*/
+#wrapper{
+    width:960px;
+    height:1000px;
+    background-color:gray;
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    height: 200px;
+    background-color: red;
+}
+nav{
+    background-color: #3333ff;
+    width:100%;
+    height:100px;
+   
+}
+nav>ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color:yellow;
+   padding-top: 25px;
+    
+}
+nav>ul>li{
+    display: inline-block;
+    width: 20%;
+    line-height: 50px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+   
+  
+}
+nav>ul>li>a:hover{
+    color: black;
+   background-color: white;
+   display: block;
+   border-radius: 10px;
+    border-radius: 10px;
+
+}
+.sub-menu{
+    background-color: gray;
+    position:absolute;
+    list-style-type: none;
+    display: none;
+        
+}
+.sub-menu li{
+    width: 157px;
+    padding:0;
+    margin-left: -15px;
+    border-bottom: 1px dotted black;
+}
+.sub-menu li a{
+    
+    margin-left: 5px;
+    text-decoration: none;
+}
+.sub-menu li a:hover{
+    background-color: red;
+    color: blue;
+}
+div li:hover .sub-menu{
+    display: block;
+}
+

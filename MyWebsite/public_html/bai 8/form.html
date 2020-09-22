@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styleform.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form class="form">
+            <div class="form-groupp">
+                <label>Họ Và Tên</label><br>
+                <input class="form-cotrols" type="text" />
+            </div>
+            <div class="form-groupp">
+                <label>Giới Tính:</label>
+                <label><input  class="form-cotroll" type="radio" name="rdgioitinh" />Nam</label>
+                <label><input  class="form-cotroll" type="radio" name="rdgioitinh" />Nữ</label> 
+            </div>
+            <div class="form-groupp">
+                <label>Hình Ảnh</label>
+                <input  class="form-cotrol" name="Choose File" type="file"  />
+            </div>
+            <div class="form-groupp ">
+                <label>Quốc Tịch</label>
+                <select class="sele">
+                    <option>Untited States</option>
+                    <option>Việt Nam</option>
+                    <option>English</option>
+                    <option>Chinnes</option>
+                    <option>Rumas</option>
+                </select>
+            </div>
+            <div class="form-sothich">
+                <label>Sở Thích</label><br>
+                <label><input type="checkbox" name="sothich" />Thể Thao</label>
+                <label><input type="checkbox" name="Du Lịch" />Du Lịch</label>
+                <label><input type="checkbox" name="Âm Nhạc" />Âm Nhạc</label>
+                <label><input type="checkbox" name="Âm Thực" />Ẩm Thực</label>
+            </div>
+            <div class="form-groupp">
+                <label>Ghi Chú:</label><br>
+                <input class="form-cotrol1" type="text" name="ghichu" />
+            </div>
+            
+            <input class="btn" type="Submit" value="Đăng Nhập" />
+            <input class="btn" type="Submit" value="Nhập Lại" />
+
+        </form>
+    </body>
+</html>
